@@ -1,10 +1,10 @@
 import React from "react";
-import { Table } from "react-bootstrap";
+import { Table, Spinner } from "react-bootstrap";
 
 const Books = ({ books, loading }) => {
   const Loader = () => {
     if (loading) {
-      return <h3 className="primary">Loading...</h3>;
+      return <h3>Loading...</h3>;
     }
   };
 

@@ -14,8 +14,6 @@ const array = [
   }
 ];
 
-let loading = true;
-
 describe("Books component", () => {
   let loading = true;
   const component = shallow(<Books books={array} />);
