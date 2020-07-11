@@ -1,0 +1,6 @@
+@import "./symbols.scss";
+
+$theme-colours: (
+  "primary": $grey
+);
+@import "~bootstrap/scss/bootstrap.scss";
